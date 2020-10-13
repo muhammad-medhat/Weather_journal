@@ -1,0 +1,127 @@
+body{
+  background: #fffff8;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+  /* display: grid; */
+  grid-auto-rows: minmax(150px, auto);
+  /* grid-template-columns:  */
+  max-height:100%;
+  background: #fff;
+  color: #000;
+  justify-content: center;
+  /* grid-gap: 1em; */
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.holder{
+
+}
+
+.entry{
+  background: rgba(59, 74, 107, .4);
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: 1px solid #000;
+  outline-offset: -10px;
+  min-height: 150px;
+}
+
+#entryHolder{
+  margin: 10px;
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+  font-size: 30px;
+  background: #000;
+  color:#fff;
+  text-align: center;
+  padding: 1em;
+}
+.title{
+  font-weight: bold;
+  text-align: center;
+  border-bottom: solid 1px;
+  background: #d6d6d6;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+  display:block;
+  font-size: 27px;
+}
+
+input{
+  display:block;
+  width: 320px;
+  background:#fff;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border: solid 1px;
+}
+
+button{
+  width: 326px;
+  height: 100px;
+  background: #3b4a6b;
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+  box-shadow: 2px 4px 5px #444;
+  cursor: pointer;
+  /* margin: 1.5em 1em; */
+}
+h1{
+  font-size: 36px;
+}
+
+textarea{
+  width: 320px;
+  height: 200px;
+  background:#fff;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+  color: #947878; 
+  font-family: 'Oswald', sans-serif;
+
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+  color: #947878; 
+  font-family: 'Oswald', sans-serif;
+
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+  color: #947878; 
+  font-family: 'Oswald', sans-serif;
+
+} 
